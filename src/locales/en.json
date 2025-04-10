@@ -1,0 +1,11 @@
+{
+    "welcome": "Welcome to our website",
+    "home": "Home",
+    "about": {
+      "title": "About Us",
+      "content": "We are a global company"
+    },
+        "products":"Products",
+    "contacts": "Contacts"
+  }
+  
