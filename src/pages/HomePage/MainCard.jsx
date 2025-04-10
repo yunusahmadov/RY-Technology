@@ -1,6 +1,5 @@
 import React from 'react'
-import image from '../../assets/ProductDuctClouds.jpg'
-function MainCard({maintitle,maindesc}) {
+function MainCard({mainimg1,maintitle,maindesc}) {
   return (
     <div className='main-card'>
         <div className="main-card-left">
@@ -19,7 +18,7 @@ function MainCard({maintitle,maindesc}) {
         </div>
         <div className="main-card-right">
             <div className="main-card-right_image">
-                <img src={image} alt="" />
+                <img src={mainimg1} alt="" />
             </div>
         </div>
     </div>

@@ -59,7 +59,7 @@ ul li{
    font-size: 36px;
    color: #454545;
 }
-.main-card-left_button{
+.main-card-left_button,.second-card-button{
   background-color: rgba(247, 225, 23, 0.68);
   padding: 10px;
 width: 150px;
@@ -78,7 +78,54 @@ margin-top: 4px;
 /* Second Container */
 .second-card-container{
    display: flex;
+   gap: 20px;
 }
-.second-card{
+.second-card {
    display: flex;
-}
+   justify-content: space-between;
+   border: 1px solid black;
+   gap: 20px;
+   padding: 10px;
+   min-width: 300px;
+   align-items: stretch; /* Делает оба блока одинаковой высоты */
+ }
+ 
+ .second-card-left {
+   flex-shrink: 0;
+   display: flex;
+   align-items: stretch;
+ }
+ 
+ .second-card-left img {
+   height: 100%; /* Делает изображение по высоте равным правой части */
+  width: auto;
+  object-fit: cover; /* Обеспечивает красивую обрезку, если нужно */
+  display: block;
+ }
+ 
+ .second-card-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 1;
+ }
+ 
+ .second-card-right_title {
+   color: #454545;
+   font-weight: 700;
+ }
+ 
+ .second-card-right_description {
+   color: #454545CC;
+   font-size: 14px;
+ }
+ 
+ .second-card-button {
+   margin-top: 10px;
+   background-color: #f8e473;
+   padding: 8px 12px;
+   border-radius: 4px;
+   width: fit-content;
+   cursor: pointer;
+ }
+ 
