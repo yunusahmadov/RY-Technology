@@ -12,7 +12,7 @@ function SecondContainer() {
         seconddesc={'PractiCAM, our CAM and cost estimating software, offers you the most advanced manufacturing technology. Thousands of fittings, products, parts, shapes, patterns and accessories. Most effective, efficient and economical solution for your shop.'}
         />
         <SecondCard
-         secondimg={''}
+         secondimg={img}
          secondtitle={'PractiCAM'}
          seconddesc={'PractiCAD™, our CAD software, is the ultimate tool for a fully automated custom workflow for every aspect of your design and drafting work, completely and seamlessly integrated with your estimating and manufacturing processes.'}
         />
