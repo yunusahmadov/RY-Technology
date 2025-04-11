@@ -1,11 +1,15 @@
 {
-    "welcome": "Welcome to our website",
-    "home": "Home",
-    "about": {
-      "title": "About Us",
-      "content": "We are a global company"
-    },
-        "products":"Products",
-    "contacts": "Contacts"
-  }
-  
+  "welcome": "Welcome",
+  "home": "Home",
+  "about": {
+    "title": "About Us",
+    "content": "We are a global company"
+  },
+  "products": "Products",
+  "contacts": "Contacts",
+  "aboutus": "About Us",
+  "about-desc": "RY Technology offers advanced software solutions aimed at automating the production processes of companies engaged in the manufacture of ventilation, air conditioning, and heating systems. It is the official partner of the American technology company Metalab in Azerbaijan.",
+  "services": "OUR SERVICES",
+  "services-desc": "RY Technology offers advanced software solutions aimed at automating the production processes of companies engaged in the manufacture of ventilation, air conditioning, and heating systems. It is the official partner of the American technology company Metalab in Azerbaijan.",
+   "morebtn":"More"
+}

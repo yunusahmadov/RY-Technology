@@ -12,12 +12,12 @@ function HomePage({}) {
     const {t,language,setLanguage}=useLang();
 
   return (
-    <>
+    <div className='full-container'>
     <Header />
     <MainContainer/>
     <SecondContainer/>
-    {/* <Footer/> */}
-    </>
+    <Footer/>
+    </div>
 
 
   )

@@ -1,5 +1,10 @@
 import React from 'react'
-function MainCard({mainimg1,maintitle,maindesc}) {
+import { useLang } from '../../contexts/LanguageContext';
+
+
+function MainCard({maintitle,maindesc,mainimg}) {
+     const { t } = useLang();
+  
   return (
     <div className='main-card'>
         <div className="main-card-left">
@@ -12,13 +17,13 @@ function MainCard({mainimg1,maintitle,maindesc}) {
             {maindesc}
             </div>
             <div className="main-card-left_button">
-            Daha ətraflı
+            {t('morebtn')}
             </div>
 
         </div>
         <div className="main-card-right">
             <div className="main-card-right_image">
-                <img src={mainimg1} alt="" />
+                <img src={mainimg} alt="" />
             </div>
         </div>
     </div>
