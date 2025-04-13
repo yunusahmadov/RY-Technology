@@ -44,6 +44,8 @@ ul li{
  }
   a{
    transition: .3s;
+   text-decoration: none;
+   color: black;
  }
 nav li a:hover{
    color: gold;

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-function ProductsPage() {
+function ServicesPage() {
   return (
 
    <div className='full-container'>
@@ -14,4 +14,4 @@ function ProductsPage() {
   )
 }
 
-export default ProductsPage
+export default ServicesPage

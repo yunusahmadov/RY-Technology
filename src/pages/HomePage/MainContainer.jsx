@@ -11,11 +11,13 @@ function MainContainer() {
         maintitle = {t('aboutus')}
         mainimg={image}
         maindesc={t('about-desc')}
+        linkto={'/about-us'}
       />
       <MainCard
       maintitle={t('services')}
       maindesc={t('services-desc')}
       mainimg={image}
+      linkto={'/services'}
       />
     </div>
   )
