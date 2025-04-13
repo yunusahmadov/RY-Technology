@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { useLang } from '../../contexts/LanguageContext';
 
 
-function MainCard({maintitle,maindesc,mainimg}) {
+function MainCard({maintitle,maindesc,mainimg,linkto}) {
      const { t } = useLang();
   
   return (
@@ -17,7 +18,9 @@ function MainCard({maintitle,maindesc,mainimg}) {
             {maindesc}
             </div>
             <div className="main-card-left_button">
+            <Link to={linkto}> 
             {t('morebtn')}
+            </Link>
             </div>
 
         </div>

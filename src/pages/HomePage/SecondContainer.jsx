@@ -2,13 +2,16 @@ import React from 'react'
 import SecondCard from './SecondCard'
 import image1 from '../../assets/fframe_2.gif'
 import image2 from '../../assets/fframe_17.gif'
+import { useLang } from '../../contexts/LanguageContext';
 
 function SecondContainer() {
+  const { t } = useLang();
+
   return (
     <div className="second-container">
         <SecondCard
         secondtitle='PractiCam'
-        seconddesc='PractiCAM, our CAM and cost estimating software, offers you the most advanced manufacturing technology. Thousands of fittings, products, parts, shapes, patterns and accessories. Most effective, efficient and economical solution for your shop'
+        seconddesc={t('camshort')}
         secondimg={image1}
         />
         <SecondCard
