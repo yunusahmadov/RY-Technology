@@ -17,11 +17,9 @@ function MainCard({maintitle,maindesc,mainimg,linkto}) {
   
             {maindesc}
             </div>
-            <div className="main-card-left_button">
-            <Link to={linkto}> 
+            <Link to={linkto} className="main-card-left_button"> 
             {t('morebtn')}
             </Link>
-            </div>
 
         </div>
         <div className="main-card-right">

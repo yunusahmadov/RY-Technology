@@ -9,7 +9,7 @@ body{
    background-color: #f7f7f7;
  
 }
-.container, .main-container,.second-container,.footer{
+.container, .main-container,.second-container,.footer,.content-page{
    width: 100%;
    max-width:1440px;
    margin: 0 auto;
@@ -26,7 +26,7 @@ header{
 }
 nav ul{
    display: flex;
-   gap:5px;
+   gap:10px;
 }
 ul li{
    list-style: none;
@@ -259,4 +259,32 @@ footer{
    width: 30px;
    height: 30px;
    object-fit: contain;
+ }
+
+ /* Content pages */
+ h1{
+   font-size: 36px;
+   color: #454545;
+   text-decoration: underline;
+   text-decoration-color: gold;
+   text-underline-offset: 4px;
+ }
+ .content-page_images{
+   display: flex;
+   gap: 20px   ;
+   max-width: 1440px;
+ }
+ .content-page_desc{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   /* text-align: left; */
+   margin: 20px 0 40px 0;
+ }
+ .content-page_images img{
+   height: 250px;
+   width: 450px;
+ }
+ .content-page_desc{
+   font-size: 18px
  }
