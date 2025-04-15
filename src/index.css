@@ -6,7 +6,11 @@
    
 }
 body{
-   background-color: #f7f7f7;
+   /* background-color: #f7f7f7; */
+   background-color: #f8f9fa
+   ;
+  
+
  
 }
 .container, .main-container,.second-container,.footer,.content-page{
@@ -45,14 +49,14 @@ ul li{
   a{
    transition: .3s;
    text-decoration: none;
-   color: black;
+   color: #2c2c2c;
  }
 nav li a:hover{
    color: gold;
 }
 nav a{
    text-decoration: none;
-   color: black;
+   color: #2c2c2c;
    font-weight:400;
 }
 
@@ -104,7 +108,7 @@ nav a{
  
  .main-card-left_button:hover,.second-card-button:hover {
    background-color: rgba(247, 225, 23, 0.85); /* Чуть ярче при наведении */
-   transform: scale(1.01); /* Лёгкое увеличение */
+   transform: scale(1.005); /* Лёгкое увеличение */
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Более выраженная тень */
  }
  
