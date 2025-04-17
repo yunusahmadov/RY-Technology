@@ -17,7 +17,7 @@ function MainContainer() {
       maintitle={t('services')}
       maindesc={t('services-desc')}
       mainimg={image}
-      linkto={'/products'}
+      linkto={'/services'}
       />
     </div>
   )

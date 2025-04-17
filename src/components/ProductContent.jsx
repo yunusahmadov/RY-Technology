@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 // import './ProductContent.css';
-
+import playbutton from '../assets/playbutton.png'
 function ProductContent({ videocontent,texttoptitle, texttop, textbottom, img1, img2,preview,textbottomtitle }) {
   const videoRef = useRef(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -18,7 +18,7 @@ function ProductContent({ videocontent,texttoptitle, texttop, textbottom, img1, 
             <div className="video-preview">
               <img src={preview} alt="Видео превью" className="preview-img" />
               <img
-                src="https://img.icons8.com/ios-filled/100/play-button-circled.png"
+                src={playbutton}
                 alt="Play"
                 className="play-icon"
               />
