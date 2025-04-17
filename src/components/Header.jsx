@@ -2,7 +2,7 @@ import React from 'react'
 import LanguageSelector from './LanguageSelector'
 import { useLang } from '../contexts/LanguageContext';
 import { NavLink } from "react-router-dom";
-
+import logo from '../assets/newlogo.png'
 function Header() {
   const { t } = useLang();
 
@@ -11,7 +11,7 @@ function Header() {
       <div className="container">
         <div className="header-container">
           <div className="logo">
-            Logo
+            <img src={logo} alt="" />
           </div>
           <nav>
             <ul>
@@ -33,19 +33,19 @@ function Header() {
               </li>
               <li>
                 <NavLink 
-                  to="/products" 
+                  to="/services" 
                   className={({ isActive }) => isActive ? 'active-link' : ''}
                 >
-                  {t('products')}
+                  {t('services')}
                 </NavLink>
               </li>
               <li>
-                <NavLink 
+                {/* <NavLink 
                   to="/contacts" 
                   className={({ isActive }) => isActive ? 'active-link' : ''}
                 >
                   {t('contacts')}
-                </NavLink>
+                </NavLink> */}
               </li>
               <li><LanguageSelector /></li>
             </ul>
